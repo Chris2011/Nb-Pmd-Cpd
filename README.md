@@ -7,5 +7,5 @@ If anyone will join the plugin, I will add you as a contributor. What you have t
 http://nvie.com/posts/a-successful-git-branching-model/
 http://jeffkreeftmeijer.com/2010/why-arent-you-using-git-flow/
 
-Here are the newer version of this:
+Here is the newer version of this:
 http://braumeister.org/formula/git-flow-avh
