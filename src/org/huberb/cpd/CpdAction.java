@@ -19,10 +19,9 @@ import org.openide.util.actions.CookieAction;
  */
 @ActionID(id = "org.huberb.cpd.CpdAction", category = "Tools")
 @ActionRegistration(lazy = false, displayName = "#CpdDisplayName", iconBase = "org/huberb/cpd/resources/cpd.png")
-//@ActionReference(path = "Menu/BuildProject")
 @ActionReferences(value = {
     @ActionReference(path = "Menu/BuildProject"),
-    @ActionReference(path = "Editors/Popup", position = 400)
+    @ActionReference(path = "Editors/Popup/Analyze", position = 400)
 })
 
 public final class CpdAction extends CookieAction {
