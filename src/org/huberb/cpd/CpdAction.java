@@ -58,7 +58,8 @@ public final class CpdAction extends CookieAction {
                         cpdTask.addFile( dataObject );
                     }
                 }
-                cpdTask.launchCpd();
+                SearchControl.openFindDialog(null);
+                //cpdTask.launchCpd();
             }
         };
         return task;
