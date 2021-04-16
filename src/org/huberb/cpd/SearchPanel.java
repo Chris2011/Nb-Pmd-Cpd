@@ -89,10 +89,10 @@ public class SearchPanel extends JPanel implements FocusListener,
 
     private void init(Presenter explicitPresenter) {
 
-        presenters = makePresenters(explicitPresenter);
+       // presenters = makePresenters(explicitPresenter);
         setLayout(new GridLayout(1, 1));
 
-        if (presenters.isEmpty()) {
+        /*if (presenters.isEmpty()) {
             throw new IllegalStateException("No presenter found");      //NOI18N
         } else if (presenters.size() == 1) {
             selectedPresenter = presenters.get(0).getPresenter();
@@ -123,7 +123,7 @@ public class SearchPanel extends JPanel implements FocusListener,
 //        newTabCheckBox.setSelected(
 //                FindDialogMemory.getDefault().isOpenInNewTab());
         initLocalStrings();
-        initAccessibility();
+        initAccessibility();*/
     }
 
     private void chooseLastUsedPresenter() {
@@ -204,7 +204,7 @@ public class SearchPanel extends JPanel implements FocusListener,
 
     public void showDialog() {
 
-        String titleMsgKey = replacing
+        /*String titleMsgKey = replacing
                 ? "LBL_ReplaceInProjects" //NOI18N
                 : "LBL_FindInProjects"; //NOI18N
 
@@ -236,7 +236,7 @@ public class SearchPanel extends JPanel implements FocusListener,
         updateUsability();
         if (selectedPresenter == null) {
             chooseLastUsedPresenter();
-        }
+        }*/
     }
 
     @Override
